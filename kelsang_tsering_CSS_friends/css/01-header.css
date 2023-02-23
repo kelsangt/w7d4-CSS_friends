@@ -6,6 +6,8 @@ body {
     font-size: medium;
 }
 
-header nav h1 {
-    background-color: red;
+.header-box {
+    width: 100%;
+    color: blue;
 }
+
