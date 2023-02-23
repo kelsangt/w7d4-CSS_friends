@@ -9,11 +9,21 @@ span, article, footer, time, small {
 }
 
 ul {
-
+    box-sizing: inherit;
 }
 
 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
+li {
+    list-style: none;
+}
+
+input[type=form] {
+    -webkit-appearance: none;
 }
 
 input[type="password"],
@@ -22,10 +32,10 @@ input[type="text"],
 input[type="submit"],
 textarea,
 button {
-
+    cursor: pointer;
 }
 
 button,
 input[type="submit"] {
-
+    
 }
